@@ -1,0 +1,88 @@
+body {
+    font-size: 18px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(bg.png);
+}
+
+.navigatie {
+    background: rgba(200, 200, 200, 0.5);
+    border-radius: 20px;
+    width: 20vw;
+    height: 30vh;
+    border-style: dashed;
+}
+
+.navigatie li {
+    padding: 10px;
+}
+
+.navigatie a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.paginaprincipala {
+    display: flex;
+    flex-direction: column;
+}
+
+.overviewpisici h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    padding: 0 0 0 20%;
+}
+
+.overviewpisici {
+    background: wheat;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    width: 70vw;
+
+}
+
+
+.istoria_pisicilor {
+    display: flex;
+    flex-direction: row;
+}
+
+.pisica_de_casa {
+    margin-right: 2rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background: wheat;
+    border-style: dashed;
+    height: 30vh;
+}
+
+.rase_pisici {
+    margin-right: 2rem;
+    padding: 0 3rem 0 1rem;
+    background: wheat;
+    border-style: dashed;
+    text-align: center;
+    width: 50vw;
+}
+
+.domesticire_video {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.domesticirea_pisicii {
+    margin-top: 7vh;
+    margin-right: 2rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background: wheat;
+    border-style: dashed;
+    height: 50vh;
+    width: 70vw;
+}
+
+.reguli_pisici {
+    margin-right: 2rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background: wheat;
+    border-style: dashed;
+}
